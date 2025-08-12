@@ -10,7 +10,7 @@ export default function Projects() {
       title: "Order & Delivery Website",
       description:
         "A full-stack web application. Features include dashboard, order placement, delivery tracking, invoice generation, and PDF export etc...",
-      tech: ["React", "Node.js", "Supabase", "Tailwind CSS", "SQL"],
+      tech: ["React", "Node.js", "Supabase", "Tailwind CSS", "Postgresql"],
     },
   ];
 
