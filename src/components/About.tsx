@@ -25,7 +25,7 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          I'm Surya Teja Kamineni, a passionate front-end developer with a knack
+          I&apos;m Surya Teja Kamineni, a passionate front-end developer with a knack
           for crafting beautiful, functional web experiences. I specialize in
           modern frameworks like Next.js, React, and Tailwind CSS, and I love
           bringing designs to life with animation and smooth user interactions.

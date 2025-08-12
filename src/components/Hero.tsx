@@ -15,7 +15,7 @@ export default function Hero() {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          Hi, I'm{" "}
+          Hi, I'&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
             Surya Teja Kamineni
           </span>

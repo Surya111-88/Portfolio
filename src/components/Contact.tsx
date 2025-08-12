@@ -11,7 +11,7 @@ export default function Contacts() {
         {/* Heading */}
         <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
         <p className="text-gray-400 mb-6">
-          Let’s connect! You can find me here:
+          Let&apos;s connect! You can find me here:
         </p>
 
         {/* Icons */}

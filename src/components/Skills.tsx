@@ -1,5 +1,5 @@
 "use client";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import "../Styles/skills.css";
 
