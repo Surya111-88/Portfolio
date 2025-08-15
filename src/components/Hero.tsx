@@ -58,8 +58,10 @@ export default function Hero() {
           alt="Surya Teja Kamineni"
           width={320}
           height={320}
-          className="w-80 h-80 object-cover rounded-full border-4 border-blue-500 shadow-lg"
+          className="rounded-full border-4 border-blue-500 shadow-lg object-cover"
+          style={{ width: '20rem', height: '20rem' }}
         />
+
       </motion.div>
     </section>
   );
