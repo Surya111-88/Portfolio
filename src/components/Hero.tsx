@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -15,14 +16,14 @@ export default function Hero() {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-          Hi, I'&apos;m{" "}
+          Hi, I&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
             Surya Teja Kamineni
           </span>
         </h1>
         <p className="text-lg text-gray-300 max-w-xl">
           A passionate front-end developer creating beautiful and functional
-          web experiences with modern tools like React, Next.js and Tailwind CSS 
+          web experiences with modern tools like React, Next.js and Tailwind CSS
         </p>
         <div className="space-x-4">
           <motion.a
@@ -52,14 +53,14 @@ export default function Hero() {
         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
         whileHover={{ scale: 1.05, rotate: 2 }}
       >
-        <img
+        <Image
           src="/image.png"
           alt="Surya Teja Kamineni"
+          width={320}
+          height={320}
           className="w-80 h-80 object-cover rounded-full border-4 border-blue-500 shadow-lg"
         />
       </motion.div>
-          
     </section>
-    
   );
 }
