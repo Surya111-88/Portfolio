@@ -10,18 +10,18 @@ export default function Hero() {
     >
       {/* Text Side */}
       <motion.div
-        className="flex-1 text-center md:text-left space-y-6"
+        className="w-full md:flex-1 text-center md:text-left space-y-6"
         initial={{ opacity: 0, x: -80 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug">
-
-          Hi, I&apos;m{" "}
-          <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
+        <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
+          Hi, I&apos;m
+          <span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
             Surya Teja Kamineni
           </span>
         </h1>
+
         <p className="text-base sm:text-lg text-gray-300 max-w-full md:max-w-xl">
           A passionate front-end developer creating beautiful and functional
           web experiences with modern tools like React, Next.js and Tailwind CSS
@@ -48,7 +48,7 @@ export default function Hero() {
 
       {/* Image Side */}
       <motion.div
-        className="flex-1 mt-10 md:mt-0 flex justify-center"
+        className="w-full md:flex-1 mt-40 md:mt-0 flex justify-center"
         initial={{ opacity: 0, x: 80 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
