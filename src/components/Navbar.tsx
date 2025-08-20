@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#1e2127] text-white z-50 shadow-lg">
-      <ul className="flex justify-center gap-8 text-lg font-medium py-6">
+      <ul className="flex flex-wrap justify-center gap-4 sm:gap-6 text-base sm:text-lg font-medium py-4 sm:py-6">
         <li>
           <a href="#hero" className="hover:opacity-70 transition-opacity">
             Home

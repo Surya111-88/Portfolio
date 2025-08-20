@@ -26,14 +26,14 @@ export default function Home() {
       {/* Splash Screen */}
       {showSplash && (
         <div
-          className={`fixed inset-0 flex flex-col items-center justify-center bg-[#1e2127] z-50 transition-opacity duration-1000 ${
+          className={`fixed inset-0 flex flex-col items-center justify-center px-4 sm:px-6 bg-[#1e2127] z-50 transition-opacity duration-1000 ${
             fadeOut ? "opacity-0" : "opacity-100"
           }`}
         >
-          <h1 className="text-6xl font-bold mb-2 animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 animate-fade-in">
             Surya Teja Kamineni
           </h1>
-          <p className="text-lg opacity-70 animate-fade-in">
+          <p className="text-base sm:text-lg opacity-70 animate-fade-in">
             Front-End Developer
           </p>
         </div>
