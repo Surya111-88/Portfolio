@@ -18,7 +18,7 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#skills" className="hover:text-blue-400">
+          <a href="#skills" className="hover:opacity-70 transition-opacity">
             Skills
           </a>
         </li>

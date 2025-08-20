@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-// import Intro from "@/components/Intro";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Skills from "@/components/Skills";
@@ -45,7 +44,6 @@ export default function Home() {
         <main className="relative min-h-screen bg-[#1e2127] text-white">
           <Navbar />
           <Hero />
-          {/* <Intro /> */}
           <About />
           <Projects />
           <Skills />
